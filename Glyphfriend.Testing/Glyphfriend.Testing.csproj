@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -65,6 +66,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\foundation-icons.css" />
+    <Content Include="Content\IcoMoon\style.css" />
+    <Content Include="Content\ionicons.css" />
+    <Content Include="Content\octicons.css" />
+    <Content Include="IntellisenseTesting.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
